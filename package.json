@@ -30,6 +30,7 @@
     "@types/lodash": "^4.14.171",
     "@welldone-software/why-did-you-render": "^7.0.1",
     "accept-language": "^3.0.18",
+    "all-contributors-cli": "^6.26.1",
     "autoprefixer": "^10.2.6",
     "axios": "^0.21.1",
     "classnames": "^2.3.1",
