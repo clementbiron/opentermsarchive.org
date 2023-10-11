@@ -140,8 +140,6 @@ See our [contributing guide](CONTRIBUTING.md).
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://www.clementbiron.com"><img src="https://avatars.githubusercontent.com/u/364319?v=4?s=100" width="100px;" alt="Clément Biron"/><br /><sub><b>Clément Biron</b></sub></a><br /><a href="#design-clementbiron" title="Design">🎨</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jean-Pierre"><img src="https://avatars.githubusercontent.com/u/1500782?v=4?s=100" width="100px;" alt="Jean-Pierre"/><br /><sub><b>Jean-Pierre</b></sub></a><br /><a href="https://github.com/clementbiron/opentermsarchive.org/issues?q=author%3AJean-Pierre" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nicolas"><img src="https://avatars.githubusercontent.com/u/6000?v=4?s=100" width="100px;" alt="Nicolas Raspal"/><br /><sub><b>Nicolas Raspal</b></sub></a><br /><a href="https://github.com/clementbiron/opentermsarchive.org/commits?author=Nicolas" title="Code">💻</a> <a href="#design-Nicolas" title="Design">🎨</a></td>
     </tr>
   </tbody>
 </table>
