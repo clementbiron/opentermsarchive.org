@@ -24,6 +24,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "Nicolas",
+      "name": "Nicolas Raspal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6000?v=4",
+      "profile": "https://github.com/nicolas",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
