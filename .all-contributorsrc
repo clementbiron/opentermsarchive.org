@@ -6,26 +6,7 @@
   "commit": false,
   "commitType": "docs",
   "commitConvention": "angular",
-  "contributors": [
-    {
-      "login": "clementbiron",
-      "name": "Clément Biron",
-      "avatar_url": "https://avatars.githubusercontent.com/u/364319?v=4",
-      "profile": "https://www.clementbiron.com",
-      "contributions": [
-        "design"
-      ]
-    },
-    {
-      "login": "",
-      "name": "CD",
-      "avatar_url": "https://media.licdn.com/dms/image/C4E03AQG-1eVwtbPMUw/profile-displayphoto-shrink_800_800/0/1668023127646?e=1702512000&v=beta&t=nrnGHngQiCzh0ezf0s-m6UMPZj3MRJGMF25dCme7jaQ",
-      "profile": "https://www.linkedin.com/in/constance-dauvergne-1811a5192/",
-      "contributions": [
-        "data"
-      ]
-    }
-  ],
+  "contributors": [],
   "contributorsPerLine": 7,
   "skipCi": true,
   "repoType": "github",
