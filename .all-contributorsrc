@@ -6,7 +6,17 @@
   "commit": false,
   "commitType": "docs",
   "commitConvention": "angular",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "clementbiron",
+      "name": "Clément Biron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/364319?v=4",
+      "profile": "https://www.clementbiron.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
   "skipCi": true,
   "repoType": "github",
