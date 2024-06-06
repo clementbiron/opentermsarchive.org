@@ -264,6 +264,13 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "name": "Nike",
+      "profile": "https://www.linkedin.com/company/nike/",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "repoType": "github",
