@@ -1,9 +1,14 @@
-{
-  "Generative AI": {
+[
+  {
+    "name": "Generative AI",
     "id": "GenAI",
-    "weight": 1,
-    "languages": ["en"],
-    "jurisdictions": ["EU", "CN"],
+    "languages": [
+      "en"
+    ],
+    "jurisdictions": [
+      "EU",
+      "CN"
+    ],
     "maintainers": [
       {
         "name": "Sciences Po Law School Clinic",
@@ -18,13 +23,24 @@
       "en": "Most popular generative AI services",
       "fr": "Services d'IA générative les plus populaires"
     },
-    "endpoint": "http://51.77.110.109/api/v1"
+    "endpoint": "http://51.77.110.109/collection-api/v1",
+    "tracking": [
+      {
+        "startDate": "2023-09-26",
+        "schedule": "30 */12 * * *",
+        "serverLocation": "London, GB"
+      }
+    ]
   },
-  "Platform Governance Archive": {
+  {
+    "name": "Platform Governance Archive",
     "id": "pga",
-    "weight": 2,
-    "languages": ["en"],
-    "jurisdictions": ["EU"],
+    "languages": [
+      "en"
+    ],
+    "jurisdictions": [
+      "EU"
+    ],
     "maintainers": [
       {
         "name": "Centre for Media, Communication and Information Research (ZeMKI), University of Bremen",
@@ -43,78 +59,24 @@
       "en": "Major global social media services",
       "fr": "Médias sociaux mondiaux majeurs"
     },
-    "endpoint": "http://134.102.58.70/api/v1"
-  },
-  "P2B Compliance": {
-    "id": "p2b-compliance",
-    "weight": 3,
-    "languages": ["*eu"],
-    "jurisdictions": ["EU"],
-    "stats": {
-      "services": "208",
-      "documents": "253"
-    },
-    "industries": {
-      "en": "Online intermediation services for businesses subject to the European <a href=\"https://eur-lex.europa.eu/eli/reg/2019/1150/oj\">platforms-to-businesses (“P2B” / 2019/1150) regulation</a>",
-      "fr": "Services d’intermédiation en ligne pour les entreprises sujets au règlement européen <a href=\"https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32019R1150&from=EN\">P2B / 2019/1150</a>"
-    },
-    "maintainers": [
+    "endpoint": "http://134.102.58.70/collection-api/v1",
+    "tracking": [
       {
-        "name": "Open Evidence",
-        "url": "https://open-evidence.com/"
-      },
-      {
-        "name": "European Commission",
-        "url": "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en"
+        "startDate": "2022-04-20",
+        "schedule": "30 */12 * * *",
+        "serverLocation": "Bremen, DE"
       }
-    ],
-    "endpoint": "http://vps-463f0baf.vps.ovh.net/api/v1"
+    ]
   },
-  "France Élections": {
-    "id": "france-elections",
-    "weight": 4,
-    "languages": ["fr"],
-    "jurisdictions": ["FR"],
-    "maintainers": [
-      {
-        "name": "Reset",
-        "url": "https://www.reset.tech"
-      }
-    ],
-    "stats": {
-      "services": "5",
-      "documents": "65"
-    },
-    "industries": {
-      "en": "Most used social media in France that could have a systemic impact on the 2022 elections",
-      "fr": "Médias sociaux pouvant influencer les élections présidentielles et législatives françaises 2022"
-    }
-  },
-  "Dating": {
-    "id": "dating",
-    "weight": 5,
-    "languages": ["en"],
-    "jurisdictions": ["EU", "CH"],
-    "maintainers": [
-      {
-        "name": "HestiaLabs",
-        "url": "https://hestialabs.org"
-      }
-    ],
-    "stats": {
-      "services": "25",
-      "documents": "65"
-    },
-    "industries": {
-      "en": "Online dating",
-      "fr": "Rencontre en ligne"
-    }
-  },
-  "France": {
+  {
+    "name": "France",
     "id": "france",
-    "weight": 6,
-    "languages": ["fr"],
-    "jurisdictions": ["FR"],
+    "languages": [
+      "fr"
+    ],
+    "jurisdictions": [
+      "FR"
+    ],
     "industries": {
       "en": "Largest digital services used in France",
       "fr": "Principaux services numériques utilisés en France"
@@ -133,13 +95,127 @@
       "services": "108",
       "documents": "216"
     },
-    "endpoint": "http://198.244.142.9/api/v1"
+    "endpoint": "http://198.244.142.9/collection-api/v1",
+    "tracking": [
+      {
+        "startDate": "2022-01-24",
+        "schedule": "30 */12 * * *",
+        "serverLocation": "London, GB"
+      }
+    ]
   },
-  "Contrib": {
+  {
+    "name": "P2B Compliance",
+    "id": "p2b-compliance",
+    "languages": [
+      "*eu"
+    ],
+    "jurisdictions": [
+      "EU"
+    ],
+    "stats": {
+      "services": "208",
+      "documents": "253"
+    },
+    "industries": {
+      "en": "Online intermediation services for businesses subject to the European <a href=\"https://eur-lex.europa.eu/eli/reg/2019/1150/oj\">platforms-to-businesses (“P2B” / 2019/1150) regulation</a>",
+      "fr": "Services d’intermédiation en ligne pour les entreprises sujets au règlement européen <a href=\"https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32019R1150&from=EN\">P2B / 2019/1150</a>"
+    },
+    "maintainers": [
+      {
+        "name": "Open Evidence",
+        "url": "https://open-evidence.com/"
+      },
+      {
+        "name": "European Commission",
+        "url": "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en"
+      }
+    ],
+    "tracking": [
+      {
+        "startDate": "2022-07-19",
+        "endDate": "2024-08-01",
+        "schedule": "30 */6 * * *",
+        "serverLocation": "London, GB"
+      }
+    ]
+  },
+  {
+    "name": "France Élections",
+    "id": "france-elections",
+    "languages": [
+      "fr"
+    ],
+    "jurisdictions": [
+      "FR"
+    ],
+    "maintainers": [
+      {
+        "name": "Reset",
+        "url": "https://www.reset.tech"
+      }
+    ],
+    "stats": {
+      "services": "5",
+      "documents": "65"
+    },
+    "industries": {
+      "en": "Most used social media in France that could have a systemic impact on the elections",
+      "fr": "Médias sociaux pouvant influencer les élections présidentielles et législatives françaises"
+    },
+    "tracking": [
+      {
+        "startDate": "2022-03-14",
+        "endDate": "2022-09-01",
+        "schedule": "30 */6 * * *",
+        "serverLocation": "London, GB"
+      }
+    ]
+  },
+  {
+    "name": "Dating",
+    "id": "dating",
+    "languages": [
+      "en"
+    ],
+    "jurisdictions": [
+      "EU",
+      "CH"
+    ],
+    "maintainers": [
+      {
+        "name": "HestiaLabs",
+        "url": "https://hestialabs.org"
+      }
+    ],
+    "stats": {
+      "services": "25",
+      "documents": "65"
+    },
+    "industries": {
+      "en": "Online dating",
+      "fr": "Rencontre en ligne"
+    },
+    "endpoint": "http://vps-99ae1d89.vps.ovh.net/collection-api/v1",
+    "tracking": [
+      {
+        "startDate": "2022-03-14",
+        "schedule": "30 */12 * * *",
+        "serverLocation": "Roubaix, FR"
+      }
+    ]
+  },
+  {
+    "name": "Contrib",
     "id": "contrib",
-    "weight": 7,
-    "languages": ["en", "fr"],
-    "jurisdictions": ["EU", "US"],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "jurisdictions": [
+      "EU",
+      "US"
+    ],
     "industries": {
       "en": "Documents added by volunteer contributors and historically imported from TOSBack.org",
       "fr": "Documents ajoutés par des contributeurs bénévoles et importés historiquement de TOSBack.org"
@@ -148,13 +224,24 @@
       "services": "322",
       "documents": "683"
     },
-    "endpoint": "http://51.89.224.102/api/v1"
+    "endpoint": "http://51.89.224.102/collection-api/v1",
+    "tracking": [
+      {
+        "startDate": "2021-11-14",
+        "schedule": "0 6,18 * * *",
+        "serverLocation": "London, GB"
+      }
+    ]
   },
-  "Demo": {
+  {
+    "name": "Demo",
     "id": "demo",
-    "weight": 999,
-    "languages": ["en"],
-    "jurisdictions": ["EU"],
+    "languages": [
+      "en"
+    ],
+    "jurisdictions": [
+      "EU"
+    ],
     "maintainers": [
       {
         "name": "Open Terms Archive",
@@ -169,6 +256,13 @@
       "en": "Services needed to operate the Open Terms Archive engine",
       "fr": "Services nécessaires au fonctionnement du moteur d'Open Terms Archive"
     },
-    "endpoint": "http://162.19.74.224/api/v1"
+    "endpoint": "http://162.19.74.224/collection-api/v1",
+    "tracking": [
+      {
+        "startDate": "2023-04-24",
+        "schedule": "30 */12 * * *",
+        "serverLocation": "Roubaix, FR"
+      }
+    ]
   }
-}
+]
