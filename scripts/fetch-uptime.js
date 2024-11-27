@@ -23,7 +23,7 @@ async function fetchUptimeData() {
     const outputPath = path.join(__dirname, '../data/uptime.json');
 
     fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
-    console.log('✅ Uptime data successfully written to data/uptime.json');
+    console.log('✅ Uptime data successfully written to data/uptime.json', data);
   } catch (error) {
     console.error('❌ Failed to fetch UptimeRobot data');
     process.exit(1);
