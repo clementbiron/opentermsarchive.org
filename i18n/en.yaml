@@ -37,6 +37,9 @@ about:
   community_managers:
     title: Community Managers
     subtitle: Review contributions, engage contributors and animate the ecosystem.
+  bizdev:
+    title: Business Developers
+    subtitle: Promote Open Terms Archive to increase adoption, impact and sustainability.
   incubator:
     title: Incubator
     subtitle: Provides legal hosting and political sponsorship.
@@ -70,7 +73,6 @@ collections:
     language:
       one: Language
       other: Languages
-    language_various: various
     language_europe: European Union
     jurisdiction: 
       one: Jurisdiction
@@ -111,10 +113,12 @@ collections:
   governance:
     title: Governance
     subtitle: These people and entities ensure that terms in this collection are tracked properly.
-    maintainers:
-      title: Maintainers
-    contributors:
-      title: Contributors
+    host: Host
+    administrator: Administrator
+    curator: Curator
+    maintainer: Maintainer
+    sponsor: Sponsor
+    contributors: Contributors
 impact:
   related_collections: Related collections
   reminder: Open Terms Archive publicly records the terms of services of online services in different languages and countries several times a day, increasing their readability and highlighting their changes. It is designed as a tool to steer platform governance towards increased accountability, improved legislation and stronger regulatory compliance.
