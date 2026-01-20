@@ -1,0 +1,28 @@
+name: Check broken links
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress 'https://opentermsarchive.org/en/sitemap.xml' 'https://opentermsarchive.org/fr/sitemap.xml' 'https://opentermsarchive.org/de/sitemap.xml'
+          fail: false
+      
+      - name: Create Issue From File
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken links detected
+          content-filepath: ./lychee/out.md
+          labels: broken-links, automated
